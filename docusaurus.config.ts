@@ -184,7 +184,7 @@ const config: Config = {
           position: "left",
         },
         { to: "/blog", label: "Blog", position: "right" },
-        { to: "/contact", label: "Contact", position: "right" },
+        // { to: "/contact", label: "Contact", position: "right" },
       ],
       // items: [
       //   {
