@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwebsite=globalThis.webpackChunkwebsite||[]).push([[2201],{5310(e){e.exports=JSON.parse('{"tags":[{"label":"practice","permalink":"/recipes/tags/practice","count":8},{"label":"somatic","permalink":"/recipes/tags/somatic","count":8}]}')}}]);
