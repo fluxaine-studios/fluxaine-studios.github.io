@@ -148,13 +148,43 @@ const config: Config = {
         //   label: "Design Systems",
         //   position: "left",
         // },
+        // {
+        //   to: "/docs/firmament-science/intro",
+        //   label: "Firmament Science",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/docs",
+        //   label: "Domains",
+        //   position: "left",
+        // },
         {
-          to: "/docs/firmament-science/intro",
-          label: "Firmament Science",
+          to: "/somatic-theory/",
+          label: "Somatic Theory",
           position: "left",
         },
-        { to: "/blog", label: "Blog", position: "left" },
-        // { to: "/support", label: "Support", position: "right" },
+        {
+          to: "/anthropology/",
+          label: "Anthropology",
+          position: "left",
+        },
+        {
+          to: "/android/",
+          label: "Android",
+          position: "left",
+        },
+        {
+          to: "/rust-trading/",
+          label: "Rust Trading",
+          position: "left",
+        },
+        {
+          to: "/recipes/",
+          label: "Recipes",
+          position: "left",
+        },
+        { to: "/blog", label: "Blog", position: "right" },
+        { to: "/contact", label: "Contact", position: "right" },
       ],
       // items: [
       //   {

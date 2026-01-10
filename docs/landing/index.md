@@ -1,6 +1,6 @@
 ---
 id: index
-title: Fluxainē Knowledge Base
+title: Fluxainē Studios Corpora
 slug: /
 sidebar_position: 1
 ---
