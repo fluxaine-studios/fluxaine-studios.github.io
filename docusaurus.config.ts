@@ -41,13 +41,14 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        // docs: {
+        //   sidebarPath: "./sidebars.ts",
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        // },
+        docs: false,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -70,6 +71,64 @@ const config: Config = {
     ],
   ],
 
+  // manually added plugins
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "landing",
+        path: "docs/landing",
+        routeBasePath: "docs",
+        sidebarPath: false,
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "somatic-theory",
+        path: "docs/somatic-theory",
+        routeBasePath: "somatic-theory",
+        sidebarPath: require.resolve("./sidebars/somatic-theory.ts"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "anthropology",
+        path: "docs/anthropology",
+        routeBasePath: "anthropology",
+        sidebarPath: require.resolve("./sidebars/anthropology.ts"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "android",
+        path: "docs/android",
+        routeBasePath: "android",
+        sidebarPath: require.resolve("./sidebars/android.ts"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "rust-trading",
+        path: "docs/rust-trading",
+        routeBasePath: "rust-trading",
+        sidebarPath: require.resolve("./sidebars/rust-trading.ts"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "recipes",
+        path: "docs/recipes",
+        routeBasePath: "recipes",
+        sidebarPath: require.resolve("./sidebars/recipes.ts"),
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
@@ -77,53 +136,56 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "My Site",
+      title: "Fluxainē Studios",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Fluxainē Studios' Logo",
+        src: "img/logo.png",
       },
       items: [
+        // { to: "/apps", label: "Apps", position: "left" },
+        // {
+        //   to: "/docs/design-systems/intro",
+        //   label: "Design Systems",
+        //   position: "left",
+        // },
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          to: "/docs/firmament-science/intro",
+          label: "Firmament Science",
           position: "left",
-          label: "Tutorial",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
+        // { to: "/support", label: "Support", position: "right" },
       ],
+      // items: [
+      //   {
+      //     type: "docSidebar",
+      //     sidebarId: "tutorialSidebar",
+      //     position: "left",
+      //     label: "Tutorial",
+      //   },
+      //   { to: "/blog", label: "Blog", position: "left" },
+      //   {
+      //     href: "https://github.com/facebook/docusaurus",
+      //     label: "GitHub",
+      //     position: "right",
+      //   },
+      // ],
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Publishing",
           items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
+            { label: "Substack", href: "https://substack.com" },
+            { label: "Gumroad", href: "https://gumroad.com" },
           ],
         },
         {
-          title: "Community",
+          title: "Support",
           items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+            { label: "Ko-fi", href: "#" },
+            { label: "Buy Me a Coffee", href: "#" },
           ],
         },
         {
@@ -140,7 +202,48 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // links: [
+      //   {
+      //     title: "Docs",
+      //     items: [
+      //       {
+      //         label: "Tutorial",
+      //         to: "/docs/intro",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "Community",
+      //     items: [
+      //       {
+      //         label: "Stack Overflow",
+      //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
+      //       },
+      //       {
+      //         label: "Discord",
+      //         href: "https://discordapp.com/invite/docusaurus",
+      //       },
+      //       {
+      //         label: "X",
+      //         href: "https://x.com/docusaurus",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "Blog",
+      //         to: "/blog",
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/facebook/docusaurus",
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} Raghavendra Saralaya. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
