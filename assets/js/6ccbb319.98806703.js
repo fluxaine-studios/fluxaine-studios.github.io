@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwebsite=globalThis.webpackChunkwebsite||[]).push([[14],{6416(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"somatic-theory"}')}}]);

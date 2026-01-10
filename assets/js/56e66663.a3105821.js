@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwebsite=globalThis.webpackChunkwebsite||[]).push([[6998],{1307(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"recipes"}')}}]);
