@@ -225,10 +225,10 @@ const config: Config = {
               label: "Blog",
               to: "/blog",
             },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
+            // {
+            //   label: "GitHub",
+            //   href: "https://github.com/facebook/docusaurus",
+            // },
           ],
         },
       ],

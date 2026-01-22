@@ -473,6 +473,52 @@ The system is _domain-aware by construction_.
 
 ---
 
+## Step 8: Adding the Footer
+
+In the `docusaurus.config.ts` file, make the following changes and modify when appropriate.
+
+```ts
+// docusaurus.config.ts
+
+...
+themeConfig: {
+  ...
+      footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Publishing",
+          items: [
+            { label: "Substack", href: "https://substack.com" },
+            { label: "Gumroad", href: "https://gumroad.com" },
+          ],
+        },
+        {
+          title: "Support",
+          items: [
+            { label: "Ko-fi", href: "#" },
+            { label: "Buy Me a Coffee", href: "#" },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Blog",
+              to: "/blog",
+            }
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Raghavendra Saralaya. Built with Docusaurus.`,
+    },
+  ...
+}
+...
+```
+
+---
+
 ## The Final Result
 
 The end state is a documentation system that:
