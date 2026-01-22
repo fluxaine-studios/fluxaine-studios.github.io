@@ -158,31 +158,31 @@ const config: Config = {
         //   label: "Domains",
         //   position: "left",
         // },
-        {
-          to: "/somatic-theory/",
-          label: "Somatic Theory",
-          position: "left",
-        },
-        {
-          to: "/anthropology/",
-          label: "Anthropology",
-          position: "left",
-        },
-        {
-          to: "/android/",
-          label: "Android",
-          position: "left",
-        },
-        {
-          to: "/rust-trading/",
-          label: "Rust Trading",
-          position: "left",
-        },
-        {
-          to: "/recipes/",
-          label: "Recipes",
-          position: "left",
-        },
+        // {
+        //   to: "/somatic-theory/",
+        //   label: "Somatic Theory",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/anthropology/",
+        //   label: "Anthropology",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/android/",
+        //   label: "Android",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/rust-trading/",
+        //   label: "Rust Trading",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/recipes/",
+        //   label: "Recipes",
+        //   position: "left",
+        // },
         { to: "/blog", label: "Blog", position: "right" },
         // { to: "/contact", label: "Contact", position: "right" },
       ],
