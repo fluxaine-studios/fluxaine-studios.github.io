@@ -28,19 +28,22 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Culture",
-    image: cultureImg,
-    description: (
-      <>Music Production and Mix-downs, AI & Trad-media Artwork, and Recipes.</>
-    ),
-  },
-  {
     title: "Applied Research",
     image: researchImg,
     description: (
       <>
         Anthropology, Somatic Theory deep-dives, and
         Open-Source-Intelligence-driven Reports.
+      </>
+    ),
+  },
+  {
+    title: "Culture",
+    image: cultureImg,
+    description: (
+      <>
+        Music Production and Mix-downs, AI & Trad-Media Artwork, and Cullinary
+        Endeavors.
       </>
     ),
   },

@@ -225,10 +225,14 @@ const config: Config = {
               label: "Blog",
               to: "/blog",
             },
-            // {
-            //   label: "GitHub",
-            //   href: "https://github.com/facebook/docusaurus",
-            // },
+            {
+              label: "Legacy Website",
+              href: "https://numoonchld.github.io/cv/",
+            },
+            {
+              label: "LinkedIn Contact",
+              href: "https://www.linkedin.com/in/raghavendra-saralaya/",
+            },
           ],
         },
       ],

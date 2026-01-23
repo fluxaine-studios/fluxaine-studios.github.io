@@ -1,8 +1,8 @@
 ---
 slug: zero-to-live-post
-title: From Zero to Live
+title: From Zero to Live - Setup Part 1
 authors: [raghavendra]
-tags: [first-post, docusaurus]
+tags: [first-post, docusaurus setup]
 ---
 
 # From Zero to Live

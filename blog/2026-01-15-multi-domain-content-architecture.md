@@ -1,8 +1,8 @@
 ---
 slug: multi-domain-content-architecture
-title: Multi-domain Content Architecture with Docusaurus
+title: Multi-domain Content Architecture with Docusaurus - Setup Part 2
 authors: [raghavendra]
-tags: [docusaurus]
+tags: [docusaurus setup, multi-domain content]
 ---
 
 # Building a Multi-Domain Documentation System with Docusaurus

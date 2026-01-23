@@ -11,8 +11,10 @@
 }
 
 .featureImage {
-  width: 220px;        /* or 100%, depending on layout */
+  width: 250px;        
   height: auto;
-  border-radius: 50%; /* optional */
-  margin-bottom: 1rem;
+  border-radius: 50%;  
+  border-width: 3rem;
+  border-color: white;
+  margin: 15px;
 }
