@@ -102,7 +102,7 @@ And not because the effort was wasted.</p>
 <ul>
 <li class="">The full source code</li>
 <li class="">The complete app architecture</li>
-<li class="">A <strong>preview APK baked into the root of the repo</strong>, installable directly</li>
+<li class="">A <strong>preview APK baked into the releases of the repo</strong>, installable directly</li>
 <li class="">No Play Store listing, no tracking, no funnel</li>
 </ul>
 <p>If you want to see the app, use it, inspect it, or learn from it—you can. No gatekeeping, no waitlists, no accounts.</p>
