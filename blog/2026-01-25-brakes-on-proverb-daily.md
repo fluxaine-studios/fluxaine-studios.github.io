@@ -1,5 +1,5 @@
 ---
-slug: brakes-on-proveb-daily
+slug: brakes-on-proverb-daily
 title: I Built the App. Then the Play Store Built the Wall.
 authors: [raghavendra]
 tags: [android app, play store]
@@ -25,7 +25,7 @@ Just a proverb, once a day.
 
 ## Putting the Code Together
 
-From a technical standpoint, this was one of the most disciplined project I’ve done.
+From a technical standpoint, this was one of the most disciplined projects I’ve done.
 
 I used Expo with React Native and Expo Router, kept the architecture boring, and forced myself to ship functionality before polish. Local storage only. Notifications capped at one per day. Favorites persisted locally, with no illusions of sync or recovery.
 
@@ -150,7 +150,9 @@ The GitHub repository will be opened up, with:
 
 If you want to see the app, use it, inspect it, or learn from it—you can. No gatekeeping, no waitlists, no accounts.
 
-Here is the link to the [GitHub Repo](https://github.com/fluxaine-studios/proverb-daily.git), and here is the [installation APK from a local dev-machine preview build](https://github.com/fluxaine-studios/proverb-daily/releases).
+Here’s the project on GitHub: https://github.com/fluxaine-studios/proverb-daily
+
+Download the preview build (APK) here: https://github.com/fluxaine-studios/proverb-daily/releases/latest
 
 This felt like the right compromise:
 the work exists, the app is usable, and the project is complete on _my_ terms.
