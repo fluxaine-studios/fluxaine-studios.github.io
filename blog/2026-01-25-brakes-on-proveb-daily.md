@@ -145,7 +145,7 @@ The GitHub repository will be opened up, with:
 
 - The full source code
 - The complete app architecture
-- A **preview APK baked into the root of the repo**, installable directly
+- A **preview APK baked into the releases of the repo**, installable directly
 - No Play Store listing, no tracking, no funnel
 
 If you want to see the app, use it, inspect it, or learn from it—you can. No gatekeeping, no waitlists, no accounts.
