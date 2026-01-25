@@ -4,4 +4,4 @@ slug: /
 sidebar_position: 1
 ---
 
-This is the Android domain.
+- [Proverb Daily App](/android/proverb-daily/overview)

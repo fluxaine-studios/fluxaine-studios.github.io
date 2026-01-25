@@ -168,11 +168,11 @@ const config: Config = {
         //   label: "Anthropology",
         //   position: "left",
         // },
-        // {
-        //   to: "/android/",
-        //   label: "Android",
-        //   position: "left",
-        // },
+        {
+          to: "/android/",
+          label: "Android",
+          position: "left",
+        },
         // {
         //   to: "/rust-trading/",
         //   label: "Rust Trading",
