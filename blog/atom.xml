@@ -9,8 +9,8 @@
     <icon>https://fluxaine-studios.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[I Built the App. Then the Play Store Built the Wall.]]></title>
-        <id>https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily</id>
-        <link href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily"/>
+        <id>https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily</id>
+        <link href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily"/>
         <updated>2026-01-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I didn’t start this app to “build a startup.”]]></summary>
         <content type="html"><![CDATA[<p>I didn’t start this app to “build a startup.”
@@ -22,14 +22,14 @@ No user data.
 No social features.
 No “maybe later.”</p>
 <p>Just a proverb, once a day.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="putting-the-code-together">Putting the Code Together<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#putting-the-code-together" class="hash-link" aria-label="Direct link to Putting the Code Together" title="Direct link to Putting the Code Together" translate="no">​</a></h2>
-<p>From a technical standpoint, this was one of the most disciplined project I’ve done.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="putting-the-code-together">Putting the Code Together<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#putting-the-code-together" class="hash-link" aria-label="Direct link to Putting the Code Together" title="Direct link to Putting the Code Together" translate="no">​</a></h2>
+<p>From a technical standpoint, this was one of the most disciplined projects I’ve done.</p>
 <p>I used Expo with React Native and Expo Router, kept the architecture boring, and forced myself to ship functionality before polish. Local storage only. Notifications capped at one per day. Favorites persisted locally, with no illusions of sync or recovery.</p>
 <p>Even monetization was intentionally unambitious: non-blocking banner ads only. No interstitials. No “watch this to continue.” If ads failed to load, the app still worked. The user’s time mattered more than my hypothetical revenue.</p>
 <p>I tested edge cases manually: airplane mode, force-closes, denied permissions, dark mode quirks. I broke things, fixed them, and resisted the urge to refactor code that was already “good enough.”</p>
 <p>At some point, the app stopped feeling like a project and started feeling like a product. That’s a subtle but important shift. When you open it and nothing surprises you anymore—no crashes, no weird state, no awkward transitions—you know you’re close.</p>
 <p>That’s when I turned to the Play Console.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-assumption-i-didnt-question-enough">The Assumption I Didn’t Question Enough<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#the-assumption-i-didnt-question-enough" class="hash-link" aria-label="Direct link to The Assumption I Didn’t Question Enough" title="Direct link to The Assumption I Didn’t Question Enough" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-assumption-i-didnt-question-enough">The Assumption I Didn’t Question Enough<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#the-assumption-i-didnt-question-enough" class="hash-link" aria-label="Direct link to The Assumption I Didn’t Question Enough" title="Direct link to The Assumption I Didn’t Question Enough" translate="no">​</a></h2>
 <p>In my head, the flow was straightforward:</p>
 <ol>
 <li class="">Upload internal build</li>
@@ -48,7 +48,7 @@ Fourteen days.
 Consistent activity.</p>
 <p>I’m a solo developer. This isn’t a company app, a client project, or something with a built-in audience. It’s a quiet utility. The kind of app people don’t talk about—but might use every morning.</p>
 <p>And suddenly, shipping wasn’t about code quality or policy compliance. It was about <strong>people</strong>.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-solo-development-actually-hurts">Where Solo Development Actually Hurts<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#where-solo-development-actually-hurts" class="hash-link" aria-label="Direct link to Where Solo Development Actually Hurts" title="Direct link to Where Solo Development Actually Hurts" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-solo-development-actually-hurts">Where Solo Development Actually Hurts<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#where-solo-development-actually-hurts" class="hash-link" aria-label="Direct link to Where Solo Development Actually Hurts" title="Direct link to Where Solo Development Actually Hurts" translate="no">​</a></h2>
 <p>There’s a particular kind of frustration that only shows up at the end.</p>
 <p>Not when things are broken.
 Not when you’re debugging.
@@ -61,7 +61,7 @@ I had built something intentionally small and honest.</p>
 <p>“How do solo devs even do this?” became a real question, not a rhetorical one. You can’t fake testers. You can’t automate them. You can’t replace them with discipline or skill.</p>
 <p>You need humans who are willing to install an unfinished app and keep it installed for two weeks.</p>
 <p>That requirement makes sense at scale. It protects users from broken apps. But at the solo level, it creates a quiet cliff that no tutorial warns you about.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sitting-with-the-reality">Sitting With the Reality<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#sitting-with-the-reality" class="hash-link" aria-label="Direct link to Sitting With the Reality" title="Direct link to Sitting With the Reality" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sitting-with-the-reality">Sitting With the Reality<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#sitting-with-the-reality" class="hash-link" aria-label="Direct link to Sitting With the Reality" title="Direct link to Sitting With the Reality" translate="no">​</a></h2>
 <p>I won’t pretend this didn’t knock the wind out of me for a bit. There’s a moment where you ask yourself whether the effort was worth it—whether finishing the app just to stall at distribution counts as failure.</p>
 <p>I don’t think it does -- or maybe <em>it does</em>.</p>
 <p>What I shipped matters more than whether it clears every gate immediately. I now have:</p>
@@ -73,7 +73,7 @@ I had built something intentionally small and honest.</p>
 </ul>
 <p>That’s not nothing.</p>
 <p>If anything, this experience forced a reframing: <strong>shipping isn’t a single act</strong>. It’s a sequence of different skills—technical, procedural, and social. I had prepared well for two of them. I learned the third the hard way.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-id-tell-another-solo-dev">What I’d Tell Another Solo Dev<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#what-id-tell-another-solo-dev" class="hash-link" aria-label="Direct link to What I’d Tell Another Solo Dev" title="Direct link to What I’d Tell Another Solo Dev" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-id-tell-another-solo-dev">What I’d Tell Another Solo Dev<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#what-id-tell-another-solo-dev" class="hash-link" aria-label="Direct link to What I’d Tell Another Solo Dev" title="Direct link to What I’d Tell Another Solo Dev" translate="no">​</a></h2>
 <p>If you’re building alone and aiming for Google Play:</p>
 <ul>
 <li class="">Plan for testers <em>early</em>, not at the end</li>
@@ -86,7 +86,7 @@ I had built something intentionally small and honest.</p>
 The app works.
 Now the challenge is different.</p>
 <p>And at least now, I know exactly where it is.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="choosing-to-stop-chasing-the-release">Choosing to Stop Chasing the Release<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#choosing-to-stop-chasing-the-release" class="hash-link" aria-label="Direct link to Choosing to Stop Chasing the Release" title="Direct link to Choosing to Stop Chasing the Release" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="choosing-to-stop-chasing-the-release">Choosing to Stop Chasing the Release<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#choosing-to-stop-chasing-the-release" class="hash-link" aria-label="Direct link to Choosing to Stop Chasing the Release" title="Direct link to Choosing to Stop Chasing the Release" translate="no">​</a></h2>
 <p>After sitting with the 12-testers-for-14-days requirement for a while, I made a decision that surprised me by how calm it felt.</p>
 <p>I stopped trying to publish the app.</p>
 <p>Not because the app was broken.
@@ -96,7 +96,7 @@ And not because the effort was wasted.</p>
 <p>Finding, coordinating, and managing a dozen testers for two weeks isn’t hard in the abstract. But for a quiet, utility-style app with no marketing push and no audience, it turns into a different kind of project entirely. One I didn’t sign up for, and one that would have pulled my energy away from the part I actually value: building thoughtful, constrained software.</p>
 <p>That distinction mattered.</p>
 <p>So instead of dragging the project through a phase I didn’t believe in, I chose a cleaner ending.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="releasing-the-work-without-the-store">Releasing the Work Without the Store<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#releasing-the-work-without-the-store" class="hash-link" aria-label="Direct link to Releasing the Work Without the Store" title="Direct link to Releasing the Work Without the Store" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="releasing-the-work-without-the-store">Releasing the Work Without the Store<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#releasing-the-work-without-the-store" class="hash-link" aria-label="Direct link to Releasing the Work Without the Store" title="Direct link to Releasing the Work Without the Store" translate="no">​</a></h2>
 <p>Rather than letting the app disappear into a private folder on my machine, I’m making the <strong>entire project public</strong>.</p>
 <p>The GitHub repository will be opened up, with:</p>
 <ul>
@@ -106,12 +106,13 @@ And not because the effort was wasted.</p>
 <li class="">No Play Store listing, no tracking, no funnel</li>
 </ul>
 <p>If you want to see the app, use it, inspect it, or learn from it—you can. No gatekeeping, no waitlists, no accounts.</p>
-<p>Here is the link to the <a href="https://github.com/fluxaine-studios/proverb-daily.git" target="_blank" rel="noopener noreferrer" class="">GitHub Repo</a>, and here is the <a href="https://github.com/fluxaine-studios/proverb-daily/releases" target="_blank" rel="noopener noreferrer" class="">installation APK from a local dev-machine preview build</a>.</p>
+<p>Here’s the project on GitHub: <a href="https://github.com/fluxaine-studios/proverb-daily" target="_blank" rel="noopener noreferrer" class="">https://github.com/fluxaine-studios/proverb-daily</a></p>
+<p>Download the preview build (APK) here: <a href="https://github.com/fluxaine-studios/proverb-daily/releases/latest" target="_blank" rel="noopener noreferrer" class="">https://github.com/fluxaine-studios/proverb-daily/releases/latest</a></p>
 <p>This felt like the right compromise:
 the work exists, the app is usable, and the project is complete on <em>my</em> terms.</p>
 <p>Publishing to an app store is one form of release.
 Open-sourcing a finished product is another.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-giving-up-actually-means-here">What “Giving Up” Actually Means Here<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#what-giving-up-actually-means-here" class="hash-link" aria-label="Direct link to What “Giving Up” Actually Means Here" title="Direct link to What “Giving Up” Actually Means Here" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-giving-up-actually-means-here">What “Giving Up” Actually Means Here<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#what-giving-up-actually-means-here" class="hash-link" aria-label="Direct link to What “Giving Up” Actually Means Here" title="Direct link to What “Giving Up” Actually Means Here" translate="no">​</a></h2>
 <p>There’s a temptation to frame this kind of decision as failure. I don’t think that’s accurate.</p>
 <p>I didn’t give up on building the app.
 I gave up on forcing it through a channel that no longer made sense for its scale.</p>
@@ -123,7 +124,7 @@ You can finish something without commercializing it.
 You can release something without promoting it.</p>
 </blockquote>
 <p>And you can walk away without burning it down.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="closing-the-loop">Closing the Loop<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#closing-the-loop" class="hash-link" aria-label="Direct link to Closing the Loop" title="Direct link to Closing the Loop" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="closing-the-loop">Closing the Loop<a href="https://fluxaine-studios.github.io/blog/brakes-on-proverb-daily#closing-the-loop" class="hash-link" aria-label="Direct link to Closing the Loop" title="Direct link to Closing the Loop" translate="no">​</a></h2>
 <p>This project taught me more than a larger, messier app ever would have—about constraints, discipline, and where solo developers actually hit friction in 2026.</p>
 <p>The code is done.
 The app works.
