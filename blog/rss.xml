@@ -4,10 +4,136 @@
         <title>Fluxainē Studios Blog</title>
         <link>https://fluxaine-studios.github.io/blog</link>
         <description>Fluxainē Studios Blog</description>
-        <lastBuildDate>Fri, 23 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[SI Built the App. Then the Play Store Built the Wall.]]></title>
+            <link>https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily</link>
+            <guid>https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily</guid>
+            <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[I didn’t start this app to “build a startup.”]]></description>
+            <content:encoded><![CDATA[<p>I didn’t start this app to “build a startup.”
+I started it because I wanted to <strong>finish something small, clean, and complete</strong>—<em>and ship it.</em></p>
+<p>The app itself was simple by design: one proverb a day, offline-first, no accounts, no feeds, no gamification. You open it, you read, you move on with your life. That constraint wasn’t accidental; it was survival. I’ve learned the hard way that solo developers don’t fail because they can’t code—they fail because scope quietly eats them alive.</p>
+<p>So I drew a line early.</p>
+<p>No backend.
+No user data.
+No social features.
+No “maybe later.”</p>
+<p>Just a proverb, once a day.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="putting-the-code-together">Putting the Code Together<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#putting-the-code-together" class="hash-link" aria-label="Direct link to Putting the Code Together" title="Direct link to Putting the Code Together" translate="no">​</a></h2>
+<p>From a technical standpoint, this was one of the most disciplined project I’ve done.</p>
+<p>I used Expo with React Native and Expo Router, kept the architecture boring, and forced myself to ship functionality before polish. Local storage only. Notifications capped at one per day. Favorites persisted locally, with no illusions of sync or recovery.</p>
+<p>Even monetization was intentionally unambitious: non-blocking banner ads only. No interstitials. No “watch this to continue.” If ads failed to load, the app still worked. The user’s time mattered more than my hypothetical revenue.</p>
+<p>I tested edge cases manually: airplane mode, force-closes, denied permissions, dark mode quirks. I broke things, fixed them, and resisted the urge to refactor code that was already “good enough.”</p>
+<p>At some point, the app stopped feeling like a project and started feeling like a product. That’s a subtle but important shift. When you open it and nothing surprises you anymore—no crashes, no weird state, no awkward transitions—you know you’re close.</p>
+<p>That’s when I turned to the Play Console.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-assumption-i-didnt-question-enough">The Assumption I Didn’t Question Enough<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#the-assumption-i-didnt-question-enough" class="hash-link" aria-label="Direct link to The Assumption I Didn’t Question Enough" title="Direct link to The Assumption I Didn’t Question Enough" translate="no">​</a></h2>
+<p>In my head, the flow was straightforward:</p>
+<ol>
+<li class="">Upload internal build</li>
+<li class="">Do some testing myself</li>
+<li class="">Move to closed testing</li>
+<li class="">Release</li>
+</ol>
+<p>What I underestimated wasn’t technical complexity—it was <strong>process friction</strong>.</p>
+<p>Google Play now requires <strong>a minimum of 12 testers for closed testing, active for 14 consecutive days</strong>, before you’re allowed to promote the app toward production.</p>
+<p>Not “recommended.”
+Not “if applicable.”
+Required.</p>
+<p>I stared at that requirement longer than I’d like to admit.</p>
+<p>Twelve testers.
+Fourteen days.
+Consistent activity.</p>
+<p>I’m a solo developer. This isn’t a company app, a client project, or something with a built-in audience. It’s a quiet utility. The kind of app people don’t talk about—but might use every morning.</p>
+<p>And suddenly, shipping wasn’t about code quality or policy compliance. It was about <strong>people</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-solo-development-actually-hurts">Where Solo Development Actually Hurts<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#where-solo-development-actually-hurts" class="hash-link" aria-label="Direct link to Where Solo Development Actually Hurts" title="Direct link to Where Solo Development Actually Hurts" translate="no">​</a></h2>
+<p>There’s a particular kind of frustration that only shows up at the end.</p>
+<p>Not when things are broken.
+Not when you’re debugging.
+But when the app is done—and you’re blocked anyway.</p>
+<p>I had followed the rules.
+I had limited scope.
+I had respected user privacy.
+I had built something intentionally small and honest.</p>
+<p>And still, the final gate wasn’t technical—it was social.</p>
+<p>“How do solo devs even do this?” became a real question, not a rhetorical one. You can’t fake testers. You can’t automate them. You can’t replace them with discipline or skill.</p>
+<p>You need humans who are willing to install an unfinished app and keep it installed for two weeks.</p>
+<p>That requirement makes sense at scale. It protects users from broken apps. But at the solo level, it creates a quiet cliff that no tutorial warns you about.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sitting-with-the-reality">Sitting With the Reality<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#sitting-with-the-reality" class="hash-link" aria-label="Direct link to Sitting With the Reality" title="Direct link to Sitting With the Reality" translate="no">​</a></h2>
+<p>I won’t pretend this didn’t knock the wind out of me for a bit. There’s a moment where you ask yourself whether the effort was worth it—whether finishing the app just to stall at distribution counts as failure.</p>
+<p>I don’t think it does -- or maybe <em>it does</em>.</p>
+<p>What I shipped matters more than whether it clears every gate immediately. I now have:</p>
+<ul>
+<li class="">A complete app I understand end to end</li>
+<li class="">A release-ready codebase</li>
+<li class="">Real experience with Play Console’s modern policies</li>
+<li class="">A sharper sense of where solo dev bottlenecks actually are</li>
+</ul>
+<p>That’s not nothing.</p>
+<p>If anything, this experience forced a reframing: <strong>shipping isn’t a single act</strong>. It’s a sequence of different skills—technical, procedural, and social. I had prepared well for two of them. I learned the third the hard way.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-id-tell-another-solo-dev">What I’d Tell Another Solo Dev<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#what-id-tell-another-solo-dev" class="hash-link" aria-label="Direct link to What I’d Tell Another Solo Dev" title="Direct link to What I’d Tell Another Solo Dev" translate="no">​</a></h2>
+<p>If you’re building alone and aiming for Google Play:</p>
+<ul>
+<li class="">Plan for testers <em>early</em>, not at the end</li>
+<li class="">Assume policy gates are part of the product, not an afterthought</li>
+<li class="">Don’t tie your self-worth to approval timelines</li>
+<li class="">Finishing the app is still a win—even if distribution lags</li>
+</ul>
+<p>I’m not giving up on this app per-se. But I’m also not pretending the wall isn’t there.</p>
+<p>The code is done.
+The app works.
+Now the challenge is different.</p>
+<p>And at least now, I know exactly where it is.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="choosing-to-stop-chasing-the-release">Choosing to Stop Chasing the Release<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#choosing-to-stop-chasing-the-release" class="hash-link" aria-label="Direct link to Choosing to Stop Chasing the Release" title="Direct link to Choosing to Stop Chasing the Release" translate="no">​</a></h2>
+<p>After sitting with the 12-testers-for-14-days requirement for a while, I made a decision that surprised me by how calm it felt.</p>
+<p>I stopped trying to publish the app.</p>
+<p>Not because the app was broken.
+Not because I lost interest in building it.
+And not because the effort was wasted.</p>
+<p>I stopped because, at this point, the remaining work had nothing to do with software craftsmanship—and everything to do with logistics I wasn’t willing to force.</p>
+<p>Finding, coordinating, and managing a dozen testers for two weeks isn’t hard in the abstract. But for a quiet, utility-style app with no marketing push and no audience, it turns into a different kind of project entirely. One I didn’t sign up for, and one that would have pulled my energy away from the part I actually value: building thoughtful, constrained software.</p>
+<p>That distinction mattered.</p>
+<p>So instead of dragging the project through a phase I didn’t believe in, I chose a cleaner ending.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="releasing-the-work-without-the-store">Releasing the Work Without the Store<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#releasing-the-work-without-the-store" class="hash-link" aria-label="Direct link to Releasing the Work Without the Store" title="Direct link to Releasing the Work Without the Store" translate="no">​</a></h2>
+<p>Rather than letting the app disappear into a private folder on my machine, I’m making the <strong>entire project public</strong>.</p>
+<p>The GitHub repository will be opened up, with:</p>
+<ul>
+<li class="">The full source code</li>
+<li class="">The complete app architecture</li>
+<li class="">A <strong>preview APK baked into the root of the repo</strong>, installable directly</li>
+<li class="">No Play Store listing, no tracking, no funnel</li>
+</ul>
+<p>If you want to see the app, use it, inspect it, or learn from it—you can. No gatekeeping, no waitlists, no accounts.</p>
+<p>Here is the link to the <a href="https://github.com/fluxaine-studios/proverb-daily.git" target="_blank" rel="noopener noreferrer" class="">GitHub Repo</a>, and here is the <a href="https://github.com/fluxaine-studios/proverb-daily/releases" target="_blank" rel="noopener noreferrer" class="">installation APK from a local dev-machine preview build</a>.</p>
+<p>This felt like the right compromise:
+the work exists, the app is usable, and the project is complete on <em>my</em> terms.</p>
+<p>Publishing to an app store is one form of release.
+Open-sourcing a finished product is another.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-giving-up-actually-means-here">What “Giving Up” Actually Means Here<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#what-giving-up-actually-means-here" class="hash-link" aria-label="Direct link to What “Giving Up” Actually Means Here" title="Direct link to What “Giving Up” Actually Means Here" translate="no">​</a></h2>
+<p>There’s a temptation to frame this kind of decision as failure. I don’t think that’s accurate.</p>
+<p>I didn’t give up on building the app.
+I gave up on forcing it through a channel that no longer made sense for its scale.</p>
+<p>The app does exactly what it set out to do. It respects the user’s time, works offline, collects nothing, and stays out of the way. Those values don’t disappear just because there’s no store badge next to the icon.</p>
+<p>If anything, this experience clarified something important for me:</p>
+<blockquote>
+<p>Shipping is not binary.
+You can finish something without commercializing it.
+You can release something without promoting it.</p>
+</blockquote>
+<p>And you can walk away without burning it down.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="closing-the-loop">Closing the Loop<a href="https://fluxaine-studios.github.io/blog/brakes-on-proveb-daily#closing-the-loop" class="hash-link" aria-label="Direct link to Closing the Loop" title="Direct link to Closing the Loop" translate="no">​</a></h2>
+<p>This project taught me more than a larger, messier app ever would have—about constraints, discipline, and where solo developers actually hit friction in 2026.</p>
+<p>The code is done.
+The app works.
+The repository will be public.</p>
+<p>And that’s enough.</p>
+<hr>]]></content:encoded>
+            <category>android app</category>
+            <category>play store</category>
+        </item>
         <item>
             <title><![CDATA[Setting up my Docusaurus Blog from the Boilerplate - Setup Part 4]]></title>
             <link>https://fluxaine-studios.github.io/blog/blog-configuration</link>
