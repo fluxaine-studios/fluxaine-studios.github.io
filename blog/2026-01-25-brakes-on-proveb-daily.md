@@ -1,10 +1,9 @@
 ---
 slug: brakes-on-proveb-daily
-title: SI Built the App. Then the Play Store Built the Wall.
+title: I Built the App. Then the Play Store Built the Wall.
 authors: [raghavendra]
 tags: [android app, play store]
 ---
-
 
 # I Built the App. Then the Play Store Built the Wall.
 
