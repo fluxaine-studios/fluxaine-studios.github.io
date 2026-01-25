@@ -43,3 +43,7 @@ This app is designed for quick, calm use — under a minute a day.
 #### Notification Settings
 
 ![Notification Settings](./assets/about-screenshots/screenshot-5-settings_com.luzvndra.proverbdaily.jpg)
+
+#### Notification Delivery
+
+![Notification Delivery](./assets/about-screenshots/screenshot-6-notification_com.luzvndra.proverbdaily.jpg)
