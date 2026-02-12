@@ -1,5 +1,5 @@
 ---
-slug: turbopacl-vs-webpack
+slug: turbopack-vs-webpack
 title: Turbopack vs. Webpack for Build and Deploy.
 authors: [raghavendra]
 tags: [turbopack, webpack, nextjs, pwa]
