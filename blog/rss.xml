@@ -10,17 +10,17 @@
         <language>en</language>
         <item>
             <title><![CDATA[Turbopack vs. Webpack for Build and Deploy.]]></title>
-            <link>https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack</link>
-            <guid>https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack</guid>
+            <link>https://fluxaine-studios.github.io/blog/turbopack-vs-webpack</link>
+            <guid>https://fluxaine-studios.github.io/blog/turbopack-vs-webpack</guid>
             <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Turbopack vs. Webpack is a foundational question.]]></description>
             <content:encoded><![CDATA[<p>Turbopack vs. Webpack is a foundational question.</p>
 <p>If you understand this properly, you stop being “React dev who runs npm run dev” and start thinking like an engineer who controls the build system.</p>
 <p>Let’s break it down cleanly.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1️⃣-what-is-webpack">1️⃣ What is Webpack?<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#1%EF%B8%8F%E2%83%A3-what-is-webpack" class="hash-link" aria-label="Direct link to 1️⃣ What is Webpack?" title="Direct link to 1️⃣ What is Webpack?" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-webpack">🧱 Webpack<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-webpack" class="hash-link" aria-label="Direct link to 🧱 Webpack" title="Direct link to 🧱 Webpack" translate="no">​</a></h3>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="in-simple-terms">In simple terms:<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#in-simple-terms" class="hash-link" aria-label="Direct link to In simple terms:" title="Direct link to In simple terms:" translate="no">​</a></h4>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1️⃣-what-is-webpack">1️⃣ What is Webpack?<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#1%EF%B8%8F%E2%83%A3-what-is-webpack" class="hash-link" aria-label="Direct link to 1️⃣ What is Webpack?" title="Direct link to 1️⃣ What is Webpack?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-webpack">🧱 Webpack<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-webpack" class="hash-link" aria-label="Direct link to 🧱 Webpack" title="Direct link to 🧱 Webpack" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="in-simple-terms">In simple terms:<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#in-simple-terms" class="hash-link" aria-label="Direct link to In simple terms:" title="Direct link to In simple terms:" translate="no">​</a></h4>
 <p>Webpack is a <strong>module bundler</strong>.</p>
 <p>Your app has:</p>
 <ul>
@@ -41,7 +41,7 @@
 <li class="">Injects assets into HTML</li>
 </ol>
 <p>Without a bundler, the browser can’t understand your modern React app structure.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="in-your-habit-tracker-pwa-context">In your Habit Tracker PWA context:<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#in-your-habit-tracker-pwa-context" class="hash-link" aria-label="Direct link to In your Habit Tracker PWA context:" title="Direct link to In your Habit Tracker PWA context:" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="in-your-habit-tracker-pwa-context">In your Habit Tracker PWA context:<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#in-your-habit-tracker-pwa-context" class="hash-link" aria-label="Direct link to In your Habit Tracker PWA context:" title="Direct link to In your Habit Tracker PWA context:" translate="no">​</a></h4>
 <p>Webpack:</p>
 <ul>
 <li class="">Transpiles your TS → JS</li>
@@ -53,15 +53,15 @@
 <p>But…</p>
 <p>It’s JavaScript-based and can be slow on large projects.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2️⃣-what-is-turbopack">2️⃣ What is Turbopack?<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#2%EF%B8%8F%E2%83%A3-what-is-turbopack" class="hash-link" aria-label="Direct link to 2️⃣ What is Turbopack?" title="Direct link to 2️⃣ What is Turbopack?" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-turbopack">⚡ Turbopack<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-turbopack" class="hash-link" aria-label="Direct link to ⚡ Turbopack" title="Direct link to ⚡ Turbopack" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2️⃣-what-is-turbopack">2️⃣ What is Turbopack?<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#2%EF%B8%8F%E2%83%A3-what-is-turbopack" class="hash-link" aria-label="Direct link to 2️⃣ What is Turbopack?" title="Direct link to 2️⃣ What is Turbopack?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-turbopack">⚡ Turbopack<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-turbopack" class="hash-link" aria-label="Direct link to ⚡ Turbopack" title="Direct link to ⚡ Turbopack" translate="no">​</a></h3>
 <p>Turbopack is:</p>
 <ul>
 <li class="">Built by the team behind Next.js</li>
 <li class="">Written in Rust</li>
 <li class="">Designed to replace Webpack in Next.js</li>
 </ul>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-difference">Core difference:<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#core-difference" class="hash-link" aria-label="Direct link to Core difference:" title="Direct link to Core difference:" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-difference">Core difference:<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#core-difference" class="hash-link" aria-label="Direct link to Core difference:" title="Direct link to Core difference:" translate="no">​</a></h4>
 <p>Turbopack is built for <strong>incremental builds at scale</strong>.</p>
 <p>It only recompiles what changed.</p>
 <p>Webpack:</p>
@@ -74,7 +74,7 @@
 </blockquote>
 <p>That’s why Turbopack is dramatically faster in dev mode.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3️⃣-turbopack-vs-webpack--for-habit-trackr-pwa">3️⃣ Turbopack vs Webpack — For Habit Trackr PWA<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#3%EF%B8%8F%E2%83%A3-turbopack-vs-webpack--for-habit-trackr-pwa" class="hash-link" aria-label="Direct link to 3️⃣ Turbopack vs Webpack — For Habit Trackr PWA" title="Direct link to 3️⃣ Turbopack vs Webpack — For Habit Trackr PWA" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3️⃣-turbopack-vs-webpack--for-habit-trackr-pwa">3️⃣ Turbopack vs Webpack — For Habit Trackr PWA<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#3%EF%B8%8F%E2%83%A3-turbopack-vs-webpack--for-habit-trackr-pwa" class="hash-link" aria-label="Direct link to 3️⃣ Turbopack vs Webpack — For Habit Trackr PWA" title="Direct link to 3️⃣ Turbopack vs Webpack — For Habit Trackr PWA" translate="no">​</a></h2>
 <p>If you are building:</p>
 <ul>
 <li class="">Next.js App Router</li>
@@ -85,7 +85,7 @@
 </ul>
 <p>Here’s what actually matters:</p>
 <table><thead><tr><th>Area</th><th>Webpack</th><th>Turbopack</th></tr></thead><tbody><tr><td>Dev server speed</td><td>Slower</td><td>Much faster</td></tr><tr><td>HMR (hot reload)</td><td>Good</td><td>Extremely fast</td></tr><tr><td>Production build</td><td>Mature &amp; stable</td><td>Still evolving</td></tr><tr><td>Ecosystem plugins</td><td>Massive</td><td>Limited (still growing)</td></tr><tr><td>Default in Next</td><td>Older versions</td><td>Newer versions (dev mode)</td></tr></tbody></table>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="critical-reality-2026-state">Critical Reality (2026 state)<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#critical-reality-2026-state" class="hash-link" aria-label="Direct link to Critical Reality (2026 state)" title="Direct link to Critical Reality (2026 state)" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="critical-reality-2026-state">Critical Reality (2026 state)<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#critical-reality-2026-state" class="hash-link" aria-label="Direct link to Critical Reality (2026 state)" title="Direct link to Critical Reality (2026 state)" translate="no">​</a></h4>
 <p>In modern Next.js:</p>
 <ul>
 <li class="">Turbopack is primarily used in <strong>development</strong></li>
@@ -104,16 +104,16 @@
 <p>Webpack is a mature JS-based bundler that builds dependency graphs and outputs optimized bundles. Turbopack is a Rust-based incremental bundler designed for high-performance dev workflows in Next.js. For production PWA builds, service workers and manifest configuration matter far more than bundler choice.</p>
 </blockquote>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4️⃣-what-is-actually-necessary-to-build-a-pwa-today">4️⃣ What is ACTUALLY necessary to build a PWA today?<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#4%EF%B8%8F%E2%83%A3-what-is-actually-necessary-to-build-a-pwa-today" class="hash-link" aria-label="Direct link to 4️⃣ What is ACTUALLY necessary to build a PWA today?" title="Direct link to 4️⃣ What is ACTUALLY necessary to build a PWA today?" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4️⃣-what-is-actually-necessary-to-build-a-pwa-today">4️⃣ What is ACTUALLY necessary to build a PWA today?<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#4%EF%B8%8F%E2%83%A3-what-is-actually-necessary-to-build-a-pwa-today" class="hash-link" aria-label="Direct link to 4️⃣ What is ACTUALLY necessary to build a PWA today?" title="Direct link to 4️⃣ What is ACTUALLY necessary to build a PWA today?" translate="no">​</a></h2>
 <p>This is the important part.</p>
 <p>A bundler is not what makes something a PWA.</p>
 <p>To make your app a real PWA, you need:</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-1-web-app-manifest-example">🧩 1. Web App Manifest (example)<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-1-web-app-manifest-example" class="hash-link" aria-label="Direct link to 🧩 1. Web App Manifest (example)" title="Direct link to 🧩 1. Web App Manifest (example)" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-1-web-app-manifest-example">🧩 1. Web App Manifest (example)<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-1-web-app-manifest-example" class="hash-link" aria-label="Direct link to 🧩 1. Web App Manifest (example)" title="Direct link to 🧩 1. Web App Manifest (example)" translate="no">​</a></h3>
 <div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Habit Trackr"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"short_name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Habit"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"display"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"standalone"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"start_url"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"/"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"background_color"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"#000000"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"theme_color"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"#000000"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"icons"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">...</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
 <p>This makes it installable.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-2-service-worker">🔄 2. Service Worker<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-2-service-worker" class="hash-link" aria-label="Direct link to 🔄 2. Service Worker" title="Direct link to 🔄 2. Service Worker" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-2-service-worker">🔄 2. Service Worker<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-2-service-worker" class="hash-link" aria-label="Direct link to 🔄 2. Service Worker" title="Direct link to 🔄 2. Service Worker" translate="no">​</a></h3>
 <p>This is what makes it:</p>
 <ul>
 <li class="">Offline-capable</li>
@@ -127,7 +127,7 @@
 <li class="">Or something like Workbox</li>
 </ul>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-3-https">📦 3. HTTPS<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-3-https" class="hash-link" aria-label="Direct link to 📦 3. HTTPS" title="Direct link to 📦 3. HTTPS" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-3-https">📦 3. HTTPS<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-3-https" class="hash-link" aria-label="Direct link to 📦 3. HTTPS" title="Direct link to 📦 3. HTTPS" translate="no">​</a></h3>
 <p>Required for:</p>
 <ul>
 <li class="">Service workers</li>
@@ -135,7 +135,7 @@
 </ul>
 <p>Vercel already handles this.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-4-proper-caching-strategy">🧠 4. Proper caching strategy<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-4-proper-caching-strategy" class="hash-link" aria-label="Direct link to 🧠 4. Proper caching strategy" title="Direct link to 🧠 4. Proper caching strategy" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-4-proper-caching-strategy">🧠 4. Proper caching strategy<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-4-proper-caching-strategy" class="hash-link" aria-label="Direct link to 🧠 4. Proper caching strategy" title="Direct link to 🧠 4. Proper caching strategy" translate="no">​</a></h3>
 <p>For your app, you might cache:</p>
 <ul>
 <li class="">Static assets</li>
@@ -147,15 +147,15 @@ You’re halfway to offline-first architecture.</p>
 <hr>
 <p>Yes. Clean and simple — here are the <strong>only changes you need</strong> in <code>package.json</code> to make your PWA build correctly with Next.js 16 + <code>next-pwa</code>.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-required-script-changes">✅ Required Script Changes<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-required-script-changes" class="hash-link" aria-label="Direct link to ✅ Required Script Changes" title="Direct link to ✅ Required Script Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-required-script-changes">✅ Required Script Changes<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-required-script-changes" class="hash-link" aria-label="Direct link to ✅ Required Script Changes" title="Direct link to ✅ Required Script Changes" translate="no">​</a></h2>
 <p>You must explicitly force <strong>Webpack</strong> for both dev and build.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="replace-your-scripts-section-with-this">Replace your scripts section with this:<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#replace-your-scripts-section-with-this" class="hash-link" aria-label="Direct link to Replace your scripts section with this:" title="Direct link to Replace your scripts section with this:" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="replace-your-scripts-section-with-this">Replace your scripts section with this:<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#replace-your-scripts-section-with-this" class="hash-link" aria-label="Direct link to Replace your scripts section with this:" title="Direct link to Replace your scripts section with this:" translate="no">​</a></h3>
 <div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"scripts"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"dev"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"next dev --webpack"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"build"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"next build --webpack"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"start"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"next start"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
 <ul>
 <li class="">ensure this config is the case for your vercel deployment settings also</li>
 </ul>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-why-this-is-necessary">🎯 Why this is necessary<a href="https://fluxaine-studios.github.io/blog/turbopacl-vs-webpack#-why-this-is-necessary" class="hash-link" aria-label="Direct link to 🎯 Why this is necessary" title="Direct link to 🎯 Why this is necessary" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-why-this-is-necessary">🎯 Why this is necessary<a href="https://fluxaine-studios.github.io/blog/turbopack-vs-webpack#-why-this-is-necessary" class="hash-link" aria-label="Direct link to 🎯 Why this is necessary" title="Direct link to 🎯 Why this is necessary" translate="no">​</a></h2>
 <ul>
 <li class="">
 <p>Next.js 16 defaults to <strong>Turbopack</strong></p>
