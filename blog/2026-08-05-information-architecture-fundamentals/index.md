@@ -62,6 +62,8 @@ The following questions need to be be addressed to gather content requirements
 4. Ask questions to the stakeholders as you diagram the process
 
 ▶️ **Identify content and socialize the Information Architecture (IA) early in the process of building it out. Share drafts are you develop them from the get go.**
+  - determine if people can find things
+  - easy to find things vs. backtracking, taking a long way around the nav etc
 
 ## Developing the IA from content
 
@@ -101,3 +103,58 @@ Once content has been amassed and we know how it will created and managed, creat
 - file names across UI design files and Code should match IA category labels
 - consistency between IA & file structure in UI Design & Code gives the team involved a map for where everything goes and what they are called
 - file and directory naming and structure should follow the same scheme that is followed in IA's category naming
+
+### Grouping and Classifying Content
+
+When a lot of content accumulates under one category, then a new issue rises -- *"what order do I put all the content in?"* 
+
+Potential content classification methods include:
+
+1. <u>chronological</u> -- akin to e-mail
+2. <u>alphabetical</u> -- akin to index in the back of a book
+3. <u>geographical</u> -- related to physical locations
+4. <u>most popular</u> -- akin to spotify or youtube
+5. <u>process order</u> -- the order of actions in a process like a kanban
+
+
+
+## Building Blocks of IA models
+
+![Building Blocks of IA](./Types%20of%20IA.jpg)
+
+Following are the building blocks of UX for a webpage or an app
+
+1. HIERARCHICAL TREE
+2. NESTED LIST
+3. HUB & SPOKE MODEL
+4. BENTO-BOX MODEL
+5. FILTERED VIEW 
+
+- choosing the building blocks of IA models and mixing them is all about **reliable way-finding**
+- scenarios where combining the building blocks of IA models makes total sense is website/app with public facing content put in a HIERARCHICAL TREE and private login area put in a HUB & SPOKE model
+
+## Tools for IA Creation
+
+- small websites that don't need any other form of documentation and everything fits in 1-2 pages, then textual IA with bullet points and indentation is sufficient
+  - eg: word, text-edit, markdown etc.
+
+- for mid-sized to large enterprise or e-commerce websites, it is easier for people to consume a visual diagram instead of novel-length textual outline for the IA
+  - eg: visio, omnigraffle, xmind
+
+
+## Testing and Validation of IA
+
+▶️ ***"People start on a website with a task in hand, not a document to read"***
+
+### Bucket Classification
+
+When the users are asked to sort a pile of content-index cards into predefined buckets (categories), if there is agreement about which cards go in which of these buckets, then those buckets/categories will most likely perform will in the IA.
+
+### Tree Testing
+
+This is the fastest, most reliable and least expensive way to test IA, to understand which parts of the draft IA works well with users and which parts need improvement.
+
+Firstly, model the site structure on index cards. Secondly, assign "find it" scenarios to participants, and lastly record activity during the session, such as, path the user takes through the index cards, whether or not they found the current topic, and where in the structure's flow did they hesitate or backtrack. 
+
+This method can be used to test the efficacy of the IA under construction without actually building out the design wire-frames and code.
+
