@@ -62,3 +62,42 @@ The following questions need to be be addressed to gather content requirements
 4. Ask questions to the stakeholders as you diagram the process
 
 ▶️ **Identify content and socialize the Information Architecture (IA) early in the process of building it out. Share drafts are you develop them from the get go.**
+
+## Developing the IA from content
+
+***"IA models must ideally adhere to Progressive Disclosure"***
+
+Once content has been amassed and we know how it will created and managed, create *categories* and *labels*. This is to make the content easier to understand, explain, relate to and control. The goal is to communicate value, meet expectations, provide critical clues expected in all aspects when the system in question is being used. 
+
+**The IA is made up of two things:**
+1. **content labelling and classification (taxonomy)**
+2. **file naming and classification (taxonomy)**
+
+### Content Labelling and Classification
+
+#### Cognitive Effort
+- users have a preexisting mental model of how the thing they are using is supposed to work
+- good labelling leverages this pre-existing mental model
+- <u>the user deciding on what navigation/category/link/tab to pick and choose requires ***cognitive effort***</u>
+- the user being wrong causes ***Fatigue & Frustration*** to the user which makes them leave what they are using
+
+#### Industry jargon vs User-centric Labelling
+- the end user might not necessarily understand the industry jargon, but the client/business use the jargon by default as iti second nature to them
+- it is the IA architect's responsibility to ask questions about labels for categories, sub-categories, links & call-to-actions such as:
+  - *"is that what your customers would call it?"*
+  - *"what category would the users expect to find it in?"*
+  - *"what action are users taking when they click the button?"*
+
+#### Selecting Useful Labels
+- clear, descriptive words and phrases
+- simple, accurate and clear
+- unambiguous 
+- don't manufacture words or terms
+- distinct &and descriptive -- don't overlap categories
+- should make sense to end-user (user-centric)
+- don't rely on personal opinions -- always test!
+
+### File-naming and Classification
+- file names across UI design files and Code should match IA category labels
+- consistency between IA & file structure in UI Design & Code gives the team involved a map for where everything goes and what they are called
+- file and directory naming and structure should follow the same scheme that is followed in IA's category naming
